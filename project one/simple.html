@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twins Cloth Line</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+        }
+        .navbar .search-bar {
+            flex-grow: 1;
+            margin: 0 20px;
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            outline: none;
+        }
+        .search-bar button {
+            background: orange;
+            border: none;
+            padding: 8px 15px;
+            color: white;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+        }
+        .navbar .menu {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+        }
+        .header {
+            background: orange;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        .product {
+            background: white;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+            position: relative;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .discount {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 0, 0, 0.8);
+            color: white;
+            padding: 5px 8px;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header">Men's Clothing</div>
+        <div class="products">
+            <div class="product">
+                
+                <img src="public/images/Plain Jeans.jpg" alt="Denim Jeans">
+                <p>Plain Finest Denim Slim Fit</p>
+                <p class="price">KSh 1,299</p>
+            </div>
+            <div class="product">
+                
+                <img src="public/images/Khaki.jpg" alt="Khaki Trousers">
+                <p>Fashion Hard Khaki Trousers</p>
+                <p class="price">KSh 1,049</p>
+            </div>
+            <div class="product">
+               
+                <img src="public/images/Cargo.jpg" alt="Cargo Pants">
+                <p>Mateamoda Men Pants</p>
+                <p class="price">KSh 799</p>
+            </div>
+            <div class="product">
+                
+                <img src="public/images/Tshirt.jpg" alt="Hawaiian Shirt">
+                <p>Berrykey Men's Hawaiian Shirt</p>
+                <p class="price">KSh 840</p>
+            </div>
+            <div class="product">
+                
+                <img src="public/images/White tshirt.jpg" alt="Hawaiian Shirt White">
+                <p>Berrykey Men's Hawaiian Shirt</p>
+                <p class="price">KSh 905</p>
+            </div>
+            <div class="product">
+               
+                <img src="public/images/Long sleeve.jpg" alt="Casual Shirt">
+                <p>Berrykey Men's Casual Long Sleeve</p>
+                <p class="price">KSh 860</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

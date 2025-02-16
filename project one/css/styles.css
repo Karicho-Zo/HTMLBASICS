@@ -1,0 +1,265 @@
+.body {
+    margin: 0px;
+  }
+  
+  /* start nav css */
+  
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-items {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+  
+  .item .link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .home {
+    background-color: blueviolet;
+    height: 350px;
+  }
+  .about-us {
+   /* height:350px; */
+  }
+  
+  
+  
+  /* start home css */
+  
+  .home-container{
+    background-color: white;
+    padding-left: 145px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+  }
+  .price{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 0px !important;
+  }
+  .text{
+    font-size: 25px;
+    padding:0px !important;
+  }
+
+  /* css left start */
+  
+  .left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .image-container:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+  }
+  
+  h1{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .description{
+    font-size: 23px;
+    line-height: 25px;
+  }
+  
+  .button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 195, 255);
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+  }
+  
+  /* end home css */
+
+
+  /* start contact us css */
+  .contact-us {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    /* background-color: green; */
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .form{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .names,
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .first-name,
+  .last-name,
+  .phone,
+  .email{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .first-name-input,
+  .last-name-input,
+  .email-input,
+  .phone-input{
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+
+  .message{
+    width: 90%;
+  }
+
+  .text-area{
+    width: 100% !important;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  .form-button{
+    padding: 10px;
+    color:  rgb(255, 255, 255);
+    font-size: 17px;
+    background-color: rgb(0, 195, 255);
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 35px;
+    width: 100px;
+  }
+
+  /*end contact us css*/
+
+
+  /*start our about us css*/
+  .about-us {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-us h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.description-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.categories-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.categories-list li {
+    margin: 5px 0;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+  /* start footer */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #faf6f64c;
+    color: #e61c1c;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #3410e4;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.social-icons a:hover {
+    color: #4CAF50;
+}
+  
